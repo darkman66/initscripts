@@ -100,6 +100,6 @@ case "$1" in
         restart
         ;;
     *)
-        echo $"Usage: $0 {start|stop|reload|configtest|status|force-reload|upgrade|restart|reopen_logs}"
+        echo $"Usage: $0 {start|stop|reload|status|restart}"
         exit 2
 esac
